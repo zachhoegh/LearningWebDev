@@ -9,7 +9,7 @@
     <button id="btn"> Show a dialog box</button>
     <script type="text/javascript">
         //test button
-        document.getElementById("btn").onclick = function () { alert("dialog box") }
+        document.getElementById("btn").onclick = function () { this.remove();  alert("dialog box") }
     </script>
 </body>
 </html>
